@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>List of Achievements</h1>
+    <h2>List of Achievements</h2>
     <CourseAchievement />
     <BaseIcon />
   </div>
