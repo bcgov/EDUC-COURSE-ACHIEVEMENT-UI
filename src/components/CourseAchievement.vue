@@ -3,6 +3,8 @@
     <div class="achievement-card -shadow">
       <span class="eyebrow">Session: {{achievement.session}}</span>
       <h4 class="student">{{ achievement.student }}</h4>
+      <h5>Course: {{achievement.course}}</h5>
+      <h6>Grade: {{achievement.grade}}</h6>
       <BaseIcon name="check-circle" />
       <span>{{ achievement.gradcodes.length }} graduation codes satisfied</span>
     </div>
