@@ -2,6 +2,7 @@
   <div>
     <h1>List of Achievements</h1>
     <CourseAchievement />
+    <BaseIcon />
   </div>
 </template>
 
