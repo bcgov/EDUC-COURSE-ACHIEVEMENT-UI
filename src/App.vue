@@ -2,7 +2,6 @@
   <div id="app">
     <div id="nav">
       <router-link :to="{ name: 'achievement-list' }">list</router-link> |
-      <router-link :to="{ name: 'achievement-show' }">Show achievement #1</router-link> |
       <router-link :to="{ name: 'achievement-create' }">Create</router-link>
     </div>
     <router-view />

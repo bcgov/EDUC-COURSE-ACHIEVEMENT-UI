@@ -13,9 +13,10 @@ const routes = [
     component: AchievementList
   },
   {
-    path: '/achievement',
+    path: '/achievement/:id',
     name: 'achievement-show',
-    component: AchievementShow
+    component: AchievementShow,
+    props: true
   },
   {
     path: '/achievement/create',
