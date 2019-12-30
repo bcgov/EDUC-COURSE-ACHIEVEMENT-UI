@@ -1,6 +1,6 @@
 <template>
   <div id="nav" class="nav">
-    <router-link to="/" class="brand">Course Achievements</router-link> |
+    <router-link to="/" class="brand">Course Achievements</router-link>
     <nav>
       <router-link :to="{ name: 'achievement-list' }">list</router-link> |
       <router-link :to="{ name: 'achievement-create' }">Create</router-link>
