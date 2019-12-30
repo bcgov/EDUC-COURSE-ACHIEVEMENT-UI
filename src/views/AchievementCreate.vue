@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>Create an event</h1>
+    <h1>Create an achievement</h1>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style></style>
