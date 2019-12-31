@@ -1,7 +1,8 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
+    es6: true
   },
   plugins: ["es-beautifier"],
   extends: [
@@ -16,6 +17,6 @@ module.exports = {
   },
   parserOptions: {
     parser: 'babel-eslint',
-    ecmaVersion: 6
+    ecmaVersion: 2018
   }
 }
