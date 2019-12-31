@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": 5928101,
+      "student": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "course": "English 12",
+      "organizer": "Adam",
+      "school": "Colwood High",
+      "session": "Fall 2019",
+      "grade": "A",
+      "gradcodes": [
+        {
+          "id": "1",
+          "description": "Language Arts 12"
+        },
+        {
+          "id": "14",
+          "description": "Grade 12 Non-Electives"
+        }
+      ]
+    },
+    {
+      "id": 5419358,
+      "student": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "course": "Math 12",
+      "organizer": "Adam",
+      "school": "Colwood High",
+      "session": "Winter 2019",
+      "grade": "A",
+      "gradcodes": [
+        {
+          "id": "1",
+          "description": "Math 12"
+        },
+        {
+          "id": "14",
+          "description": "Grade 12 Non-Electives"
+        }
+      ]
+    },
+    {
+      "id": 111222,
+      "student": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "course": "Economics 12",
+      "organizer": "Adam",
+      "school": "Colwood High",
+      "session": "Spring 2020",
+      "grade": "",
+      "gradcodes": [
+        {
+          "id": "17",
+          "description": "Grade 12 Electives"
+        }
+      ]
+    }
+  ]
+}
