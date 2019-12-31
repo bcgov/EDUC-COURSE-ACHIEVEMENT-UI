@@ -1,7 +1,7 @@
 {
-  "events": [
+  "achievements": [
     {
-      "id": 5928101,
+      "id": 1,
       "student": {
         "id": "abc123",
         "name": "Adam"
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "id": 5419358,
+      "id": 2,
       "student": {
         "id": "abc123",
         "name": "Adam"
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 111222,
+      "id": 3,
       "student": {
         "id": "abc123",
         "name": "Adam"
