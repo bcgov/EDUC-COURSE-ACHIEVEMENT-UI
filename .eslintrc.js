@@ -15,6 +15,7 @@ module.exports = {
     'linebreak-style': 'off'
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    ecmaVersion: 6
   }
 }

@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^3.4.4",
     "lodash": "^4.17.15",
     "vue": "^2.6.10",
@@ -25,10 +26,10 @@
     "@vue/eslint-config-prettier": "^5.0.0",
     "@vue/eslint-config-typescript": "^5.0.1",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.0.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-es-beautifier": "^1.0.1",
     "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.0.0",
+    "eslint-plugin-vue": "^6.1.2",
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.10"
   }

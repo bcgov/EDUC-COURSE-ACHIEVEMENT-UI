@@ -2,7 +2,7 @@
   <router-link class="achievement-link" :to="{ name: 'achievement-show', params: { id: '1'} }">
     <div class="achievement-card -shadow">
       <span class="eyebrow">Session: {{achievement.session}}</span>
-      <h4 class="student">{{ achievement.student }}</h4>
+      <h4 class="student">{{ achievement.student.name }}</h4>
       <h5>Course: {{achievement.course}}</h5>
       <h6>Grade: {{achievement.grade}}</h6>
       <BaseIcon name="check-circle">{{ achievement.gradcodes.length }} graduation codes satisfied</BaseIcon>
@@ -12,20 +12,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-      achievement: {
-        id: 1,
-        student: "Joe Student",
-        course: "English 12",
-        session: "Fall 2019",
-        grade: "A",
-        gradcodes: [
-          { id: "1", description: "Language Arts 12" },
-          { id: "17", description: "Grade 12 Electives" }
-        ]
-      }
-    };
+  props: {
+    achievement: Object
   }
 };
 </script>
