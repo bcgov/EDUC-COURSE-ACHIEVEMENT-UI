@@ -10,6 +10,9 @@ npm install
 npm run serve
 ```
 
+### Launch json-server to start mock json db
+npx json-server --watch db.json
+
 ### Compiles and minifies for production
 ```
 npm run build
