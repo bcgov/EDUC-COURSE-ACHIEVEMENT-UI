@@ -1,14 +1,14 @@
 <template>
   <div>
     <h2>List of Achievements</h2>
-    <CourseAchievement v-for="achievement in achievements" :key="achievement.id" :achievement="achievement"/>
+    <CourseAchievement v-for="achievement in achievements" :key="achievement.id" :achievement="achievement" />
     <BaseIcon />
   </div>
 </template>
 
 <script>
 import CourseAchievement from "@/components/CourseAchievement";
-import axios from "axios";
+import AchievementService from '@/services/AchievementService.js';
 export default {
   components: {
     CourseAchievement
@@ -16,11 +16,10 @@ export default {
   data() {
     return {
       achievements: []
-    }
+    };
   },
   created() {
-    axios
-      .get("http://localhost:3000/achievements")
+    AchievementService.getAchievements()
       .then((response) => {
         this.achievements = response.data;
       })

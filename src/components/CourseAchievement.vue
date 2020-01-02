@@ -1,5 +1,5 @@
 <template>
-  <router-link class="achievement-link" :to="{ name: 'achievement-show', params: { id: '1'} }">
+  <router-link class="achievement-link" :to="{ name: 'achievement-show', params: { id: achievement.id} }">
     <div class="achievement-card -shadow">
       <span class="eyebrow">Session: {{achievement.session}}</span>
       <h4 class="student">{{ achievement.student.name }}</h4>
