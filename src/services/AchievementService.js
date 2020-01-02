@@ -13,5 +13,8 @@ const apiClient = axios.create({
 export default {
   getAchievements() {
     return apiClient.get('/achievements')
+  },
+  getAchievement(id) {
+    return apiClient.get('/achievements/' + id)
   }
 }
