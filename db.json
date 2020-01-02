@@ -2,12 +2,9 @@
   "achievements": [
     {
       "id": 1,
-      "student": {
-        "id": "abc123",
-        "name": "Adam"
-      },
+      "studentname": "Adam",
+      "studentpen": "PEN123",
       "course": "English 12",
-      "organizer": "Adam",
       "school": "Colwood High",
       "session": "Fall 2019",
       "grade": "A",
@@ -24,12 +21,9 @@
     },
     {
       "id": 2,
-      "student": {
-        "id": "abc123",
-        "name": "Adam"
-      },
+      "studentname": "Adam",
+      "studentpen": "PEN123",
       "course": "Math 12",
-      "organizer": "Adam",
       "school": "Colwood High",
       "session": "Winter 2019",
       "grade": "A",
@@ -46,12 +40,9 @@
     },
     {
       "id": 3,
-      "student": {
-        "id": "abc123",
-        "name": "Adam"
-      },
+      "studentname": "Adam",
+      "studentpen": "PEN123",
       "course": "Economics 12",
-      "organizer": "Adam",
       "school": "Colwood High",
       "session": "Spring 2020",
       "grade": "",

@@ -1,6 +1,14 @@
 <template>
-  <div>
-    <h1>Showing achievement {{ achievement.course }}</h1>
+  <div class="achievement-header">
+    <span class="title">{{achievement.studentpen}} {{ achievement.studentname }}</span>
+    <h3 class="title">{{ achievement.course }}</h3>
+    <h5>Session: {{achievement.school}} {{achievement.session}}</h5>
+    <h5>Letter Grade: {{achievement.grade}}</h5>
+    <ul>
+      <li v-for="(gradcode, index) in achievement.gradcodes" :key="index" class="list-item">
+        <b>Graduation code: #{{ gradcode.id }} {{gradcode.description}}</b>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -25,4 +33,23 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.location {
+      margin-bottom: 0;
+    }
+    .location > .icon {
+      margin-left: 10px;
+    }
+    .achievement-header > .title {
+      margin: 0;
+    }
+    .list-group {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .list-group > .list-item {
+      padding: 1em 0;
+      border-bottom: solid 1px #e5e5e5;
+    }
+</style>
