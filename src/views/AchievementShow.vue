@@ -1,6 +1,6 @@
 <template>
   <div class="achievement-header">
-    <span class="title">{{achievement.studentpen}} {{ achievement.studentname }}</span>
+    <span class="title">{{achievement.student}} </span>
     <h3 class="title">{{ achievement.course }}</h3>
     <h5>Session: {{achievement.school}} {{achievement.session}}</h5>
     <h5>Letter Grade: {{achievement.grade}}</h5>

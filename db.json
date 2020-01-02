@@ -2,8 +2,10 @@
   "achievements": [
     {
       "id": 1,
-      "studentname": "Adam",
-      "studentpen": "PEN123",
+      "student": {
+        "pen": "PEN123",
+        "name": "Joe Learner"
+      },
       "course": "English 12",
       "school": "Colwood High",
       "session": "Fall 2019",
