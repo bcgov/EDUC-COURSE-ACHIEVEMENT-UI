@@ -1,4 +1,6 @@
-# course-achievement-ui
+# ***Deprecated***course-achievement-ui
+
+Replaced by graduation-client
 
 ## Project setup
 
