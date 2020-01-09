@@ -1,17 +1,8 @@
-'use strict';
+'use strict'
 
-const express = require('express');
+const express = require('express')
+const app = express()
+const port = 8080
 
-/**
- * Get port from environment and store in Express.
- */
-// const port = normalizePort(config.get('server:port'));
-const PORT = 8080;
-// app.set('port', port);
-const HOST = '0.0.0.0';
-
-// App
-const app = express();
-
-app.listen(PORT, HOST);
-console.log('Running on http://${HOST}:${PORT}');
+app.get('/', (req, res) => res.send('./public/index.html'))
+app.listen(port, () => console.log('Running on ${port}'))
