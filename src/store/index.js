@@ -6,6 +6,14 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     student: { pen: 'PEN123', name: 'Joe Learner' },
+    courses: [
+      'English 10',
+      'English 11',
+      'English 12',
+      'Math 10',
+      'Math 11',
+      'Math 12'
+    ],
     gradcodes: [
       {
         "id": "1",

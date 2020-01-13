@@ -1,24 +1,32 @@
 <template>
   <div>
-    <h1>Create an achievement for {{ student.name }}</h1>
-    <p>This achievement was created by {{ student.pen }}</p>
-    <p>There are {{ gradcodesLength }} graduation codes</p>
-    <p>Graduation code: {{ getGradCodeById("1") }}</p>
+    <h1>Create an achievement for {{ student.name }} with PEN: {{ student.pen }}</h1>
+    <form>
+      <label>Select a course</label>
+      <select v-model="courses">
+        <option v-for="course in courses" :key="course">{{ course }}</option>
+      </select>
+      <input type="submit" class="button -fill-gradient" value="Submit" />
+    </form>
   </div>
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex'
+import { mapState, mapGetters } from "vuex";
 
 export default {
   computed: {
     gradcodesLength() {
-      return this.$store.getters.gradcodesLength
+      return this.$store.getters.gradcodesLength;
     },
-    ...mapGetters(['getGradCodeById']),
-    ...mapState(['student'])
+    ...mapGetters(["getGradCodeById"]),
+    ...mapState(["student", "courses", "gradcodes"])
   }
-}
+};
 </script>
 
-<style></style>
+<style scoped>
+.field {
+  margin-bottom: 24px;
+}
+</style>
