@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>List of Achievements</h2>
-    <h2>To see achievements you must run 'npx json-server --watch db.json --port 3000'</h2>
+    <h6>To see achievements you must run 'npx json-server --watch db.json --port 3000'</h6>
     <CourseAchievement v-for="achievement in achievements" :key="achievement.id" :achievement="achievement" />
     <BaseIcon />
   </div>
