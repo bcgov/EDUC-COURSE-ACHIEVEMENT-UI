@@ -1,11 +1,13 @@
 name: compliance
-description: |
-  This document is used to track a projects PIA and STRA
+description: | Prototype Vue 2 Client for consuming API for Student Course Achievements
+We will not be improving this code anymore.  We have moved to EDUC-GRADUATION-CLIENT.
+I would like to keep it around for reference for awhile.  
+This document is used to track a projects PIA and STRA
   compliance.
 spec:
   - name: PIA
-    status: PIA_STATUS_HERE
-    last-updated: '2020-01-17T00:03:12.247Z'
+    status: Compliant
+    last-updated: 'Wed 22 Jan 2020 16:03:03 PST'
   - name: STRA
-    status: STRA_STATUS_HERE
-    last-updated: '2020-01-17T00:03:12.247Z'
+    status: Compliant
+    last-updated: 'Wed 22 Jan 2020 16:03:03 PST'
